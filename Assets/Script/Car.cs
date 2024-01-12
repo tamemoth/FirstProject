@@ -15,7 +15,7 @@ public class Car : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(0, 0, 1)*Time.deltaTime*speed;
+        transform.position += new Vector3(0, 0, 2)*Time.deltaTime*speed;
         
     }
 }
